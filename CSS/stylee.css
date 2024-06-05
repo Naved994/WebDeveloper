@@ -1,3 +1,17 @@
 p{
     background-color: bisque;
+    color: aqua;
+    font-family: 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
+    font-style: italic;
+    text-decoration: wavy underline;
+}
+#p1{
+    background-color: aqua;
+}
+.odd{
+    background-color: brown;
+}
+.even{
+    background-color: cadetblue;
 }

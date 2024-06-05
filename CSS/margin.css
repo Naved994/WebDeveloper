@@ -1,0 +1,19 @@
+#box1{
+    border: 5px solid;
+    background-color: yellowgreen;
+    width: 250px;
+    height: 250px;
+    font-size: 22px;
+
+    margin-right:auto;
+    margin-left: auto;
+    
+}
+#box2{
+    border: 5px solid;
+    background-color:blueviolet;
+    width: 250px;
+    height: 250px;
+    font-size: 22px;
+    
+}
