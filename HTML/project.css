@@ -1,3 +1,31 @@
+*{
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+}
 h1{
     background-color: rgb(156, 38, 38);
+    padding: 20px;
+    text-align: center;
+}
+nav{
+    background-color: aqua;
+    
+   
+}
+p{
+    background-color: antiquewhite;
+    text-align: center;
+}
+.fig{
+    background-color: blue;
+    text-align: center;
+}
+ul{
+    background-color: orange;
+}
+nav a{
+    background-color: brown;
+    border-radius: 20px;
+    
 }
