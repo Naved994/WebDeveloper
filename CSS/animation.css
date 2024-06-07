@@ -1,0 +1,32 @@
+#box1{
+    width: 250px;
+    height: 250px;
+  background-color: red; 
+  text-align: center; 
+  font-size: 200px;
+/*
+  animation: mySlide;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-delay: 0s;   
+  animation-play-state: running;
+  animation-timing-function: linear;
+  */
+  
+}
+#box1:hover{
+    animation: mySlide 5s linear 0s infinite;
+
+}
+#box1:active{
+    animation: mySlide 5s linear 0s infinite;
+}
+
+@keyframes mySlide{
+    from{margin-left: 100%}
+    to{margin-left: 0%}
+}
+@keyframes myRotate {
+    100%{transform: rotateX(360deg;)}
+    
+}
