@@ -1,0 +1,17 @@
+.gallery{
+    float: left;
+    border: 1px solid grey;
+    margin: 5px;
+    text-align: center;
+    width: 200px;
+}
+.gallery .description{
+ padding: 10px;
+}
+.gallery:hover{
+  border: 1px solid goldenrod;
+}
+.gallery img{
+    width: 100%;
+    height: auto;
+}
