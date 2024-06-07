@@ -1,0 +1,40 @@
+.container{
+    display: flex;
+    border: 10px solid black;
+    height: 90vh;
+    align-self:center;
+    
+   
+    /*
+    flex-direction: column-reverse;
+     justify-content: space-evenly;
+     align-items: center;
+     column-gap: 1em;
+    row-gap: 1em;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    order:1;
+*/
+    }
+.class{
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 10em;
+}
+#box1{
+background-color:red ;
+align-self:center;
+}
+#box2{
+    background-color:yellow;
+    align-self: flex-end;
+}
+#box3{
+    background-color:aqua ;
+    
+}
+#box4{
+    background-color: blueviolet;
+}
