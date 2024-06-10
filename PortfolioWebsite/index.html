@@ -8,12 +8,14 @@
 </head>
 <body>
     <div class="wrapper">
-        <div class="container">
+        <div class="container">  
             <div class="navbar">
+                
                 <div class="logo-container">
                     <img src="images/userAsset/NavLogo.jpg" class="logo">
                     <div class="logo-text">ohn Doe</div>
                     </div>
+                     
                     <div class="nav-items">
                         <div><a href="#projects">Projects</a></div>
                         <div><a href="#skills">Skills</a></div>
@@ -21,7 +23,45 @@
                     </div>
                 </div>
             </div>
+        </div>  
+         </div>
+    
+    <div class="hero-section">
+        <div class="hero-section-left">
+            <div class="hero-fadedText">John Doe</div>
+            <div class="hero-section-heading">Hi! John Doe</div>
+            <div class="hero-sub-heading">I am a <span class="role"></span></div>
+            <div class="hero-description">
+                Im a software developer and it is my portfolio website. Here youll learn about my journey as a software developer.
+            </div>
+            <div class="btn-pink" id="btn">Hire me</div>
+            </div>
+            <div class="hero-section-right">
+                <div class="absolute icons icons-circle"><img src="images/userAsset/circle.png" alt=""></div>
+                <div class="absolute icons icons-userImage.JPG"><img src="images/userAsset/UserImage.png" alt=""></div>
+                <div class="absolute icons icons-dots"><img src="images/userAsset/dots.png" alt=""></div>
+                <div class="absolute icons icons-cube"><img src="images/userAsset/cube.png" alt=""></div>
+                <div class="absolute icons icons-zigzak"><img src="images/userAsset/zigzags.png" alt=""></div>
+                <div class="absolute icons icons-"><img src="images/userAsset/plus.png" alt=""></div>
+             </div>
+            
         </div>
     </div>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="js/script.js"></script>    
+    <script>
+    var typeData = new Typed(".role", {
+        strings: [
+          "Web Developer",
+          "Frontend Developer",
+          "Full Stack Developer",
+          "Coder",
+        ],
+        loop: true,
+        typeSpeed: 100,
+        backSpeed: 80,
+        backDelay: 1000,
+      });
+      </script>
 </body>
 </html>
