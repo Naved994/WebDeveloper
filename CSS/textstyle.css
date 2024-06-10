@@ -1,0 +1,30 @@
+.logo{
+    padding-top: 20px;
+    color: red;
+}
+.bold-text{
+    font-weight: 600;
+    width: 2in;
+}
+.faded-text{
+    font-size: 12px;
+    font-weight: 500;
+    color: grey;
+}
+.apple{
+    padding-top: 50px ;
+}
+.shop{
+    margin: auto;
+    background-color: red;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+.shopnow{
+    display: inline;
+    
+}
+.shopnow:hover{
+   text-decoration: underline;
+}
