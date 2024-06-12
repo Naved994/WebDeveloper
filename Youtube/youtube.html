@@ -1,10 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <link rel="preconnect" href="https://
+  fonts.googleapis.com">
+  <link rel="preconnect" href="https://
+  fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.
+  com/css?family=Roboto:wght@400;500;7
+  00&displgy=swgp" rel="stylesheet">
+    <title>Youtube</title>
    <style>
+    p{
+      font-family: Roboto,Arial;
+      margin-top: 0;
+      margin-bottom: 0;
+    }
     .thumbnail{
     width: 300px;
   display: block;
@@ -12,9 +22,12 @@
     .search-bar{
      display: block;
     }
-    .des{
-        width: 300px;
-        vertical-align: top;
+    .video-title{
+        margin: 0;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 20px;
+        margin-bottom: 12px;
     }
 .video-preview{
      width: 300px;
@@ -22,28 +35,52 @@
      vertical-align: top;
      margin-right: 10px ;
 }
-.channel{
- border-radius: 100px;
+.video-info{
+  display: inline-block;
+  width: 200px;
+}
+.channel-picture{
+  display: inline-block;
+  width:50px;
+vertical-align: top;
 
 }
-    
-
+.profile-picture{
+  width: 40px;
+  border-radius: 40px;
+}
+.thumbnail-row{
+  margin-bottom: 12px;
+}
+.video-stats,
+.video-author{
+  font-size: 12px;
+  color: rgb(96,96,96);
+}
+.video-author{
+  margin-bottom: 4px;
+}
    </style>
 </head>
 <body>
     <input class="search-bar" input="text" placeholder="Search" >
     <div class="video-preview">
-    <img class="thumbnail" src="Thumbnail/thumbnail-1.webp">
-    <a href="https://www.youtube.com/c/mkbhd"> <img class="channel"   src="Channel-pictures/channel-1.jpeg"></a>
-  <p class="des"><strong>Talking Tech and AI with Google CEO Sundar Pichai!</strong></p>
-  <p class="author">Marques BrownLee</p>
-  <p class="stats">3.4M views · 6 months ago</p>
+    <div class="thumbnail-row">
+      <img class="thumbnail" src="Thumbnail/thumbnail-1.webp"></div>
+    <div>
+      <div class="channel-picture"> <a href="https://www.youtube.com/c/mkbhd" target="_blank"> <img class="profile-picture" src="Channel-pictures/channel-1.jpeg"></a></div>
+      <div class="video-info">
+        <p class="video-title"><strong>Talking Tech and AI with Google CEO Sundar Pichai!</strong></p>
+        <p class="video-author">Marques BrownLee</p>
+        <p class="video-stats">3.4M views · 6 months ago</p></div>
+     </div>
+
 </div>
     <div class="video-preview">
         <img class="thumbnail" src="Thumbnail/thumbnail-2.webp">
       <p class="des"><strong>
         Try Not To Laugh Challenge #9</strong></p>
-      <p class="author">Markiplier</p>
+      <p class="video-author">Markiplier</p>
       <p class="stats">19M views · 4 years ago</p>
     </div>
     <div class="video-preview">
@@ -60,6 +97,14 @@
       <p class="author">Veritasium</p>
       <p class="stats">18M views · 4 months ago</p>
     </div>
+    <div class="video-preview">
+      <img class="thumbnail" src="Thumbnail/thumbnail-6.webp">
+    <p class="des"><strong>
+     Neet fail toh gaand marao</strong></p>
+    <p class="author">Physics Wallah - Alakh Pandey</p>
+    <p class="stats">18M views · 6 months ago</p>
+  </div>
+
 
     </body>
 </html>
