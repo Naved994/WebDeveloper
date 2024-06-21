@@ -85,7 +85,6 @@ a{
     font-size: 11.2rem;
     color: rgb(231, 231,231);
     bottom: -16%;
-    left: - %;
     font-weight:700;
     transition-behavior : normal;
     transition-duration: 3s;
@@ -258,4 +257,18 @@ a{
         top: 2%;
         bottom: 10%;
     }
+}
+.project-section{
+    background-color: rgb(231, 231,231);
+}
+.page-header{
+    color: #e84949;
+    display: flex;
+    justify-content: center;
+    font-size: 9rem;
+}
+.project-skills-container{
+  background-color: #343d68;
+  width:1200px;
+  height: 1000px;
 }
