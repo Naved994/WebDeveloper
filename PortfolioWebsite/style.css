@@ -478,7 +478,6 @@ a{
     transform: translate(-50%,-50%);
      animation: blobAnimate 3s linear infinite ;
      z-index: 0;
-     background-color: #1f1f1f;
 }
 @keyframes blobAnimate {
     50%{ 
