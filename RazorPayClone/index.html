@@ -51,24 +51,67 @@
 
 <!-- Hero-section -->
 <section class="relative bg-deepBlue">
-<div class="w-10/12 flex flex-row justify-between items-center mx-auto ">
+<div class="w-10/12 max-w-[1080px] flex flex-row justify-between items-center mx-auto ">
     <!-- Left Part-->
-     <div class="flex flex-col gap-4">
+     <div class="space-y-8">
         <h1 class="font-mullish font-bold text-[40px] leading-[1.2] text-white">Power your finance, grow your business</h1>
         <div class="w-6 h-1 bg-greenLight"></div>
-        <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nisi perferendis totam quisquam, dicta, voluptas velit aliquid dolorem, doloribus officiis tempora consectetur quibusdam cum! Sint quibusdam aut a ut eum.
+        <p class="font-mullish text-[18px] leading-7 text-white opacity-70">
+           Accept payments from customers. Automate payouts venders & employees. Never run out of working capital.
          </p>
-         <button>Sign Up Now</button>
+         <button class="bg-lightBlue font-mullish text-white py-[14px] px-[18px] font-bold rounded-md hover:bg-lightBlue500 transition-all duration-200">Sign Up Now</button>
      </div>
     
      <!-- Right Part-->
-        <img src="./assets/hero-illustration.jpg" alt="">
+        <img src="./assets/hero-illustration.jpg" alt=""
+        class="w-full max-w-[680px]">
       </div>
     
       <!-- Shape Part  -->
-       <div> <img src="./assets/hero-shape.svg" alt="">
+       <div class=" w-[100%] absolute left-0 right-0"><img src="./assets/hero-shape.svg" alt="" class="w-full ">
        </div>
 </section>
+
+<!-- Feautre Section -->
+ <section class="relative top-16">
+    <img src="./assets/feature-section1-dottedrows.png" alt="" loading="lazy" width="233" height="167"
+    class="absolute left-0  ">
+    <img src="./assets/feature-section1-dottedrows.png" alt="" loading="lazy" width="233" height="167" 
+    class="absolute">
+
+    <div class="relative top-12 ">
+        <!-- Heading -->
+        <h2 class="hidden md:block font-mullish text-center text-2xl leading-[1.2] font-bold text-deepBlue">
+            Accept Payments with Razorpay Payment Suite
+          </h2>
+        <div class="w-4 h-1 bg-greenLight"></div>
+        <!-- Content section -->
+        <div class="w-10/12 max-w-[1080px] flex flex-row justify-between items-center mx-auto">
+            <!-- left Section -->
+             <div>
+                <h3 class="text-3xl font-mullish font-bold text-deepBlue leading-[1.3] ">Supercharge your business with the all‑powerful <span class="text-lightBlue">Payment Gateway</span></h3>
+               
+                <ul class="leading-[1.8] ">
+                    <li><span>100+ Payment Methods</span></li>
+                    <li> <span>Industry Leading Success Rate</span></li>
+                    <li> <span>Superior Checkout Experience</span></li>
+                    <li> <span>Easy to Integrate</span></li>
+                    <li> <span>Instant Settlements from day 1</span></li>
+                    <li><span>In-depth Reporting and Insights</span></li>
+                </ul>
+                <!-- Button and hyper Link -->
+                <div>
+                    <button class="py-3 px-4 bg-lightBlue rounded-md text-white hover:bg-lightBlue500 transition-all duration-200 flex flex-row">Sign Up now</button>
+                    <!-- hyperlink -->
+                     <div>
+                        <a href="#" class="text-lightBlue ">Know more</a>
+                        <i></i>
+                     </div>
+                </div>
+             </div>
+             <img src="./assets/payment-suite.png" alt="" class="w-full max-w-[580px]">
+        </div>
+    </div>
+ </section>
 </body>
 </html>
