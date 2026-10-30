@@ -1,3 +1,71 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+#primary-navigation.is-open {
+  position: absolute;
+  z-index: 1001;
+  top: 100%;
+  right: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+  padding: 0.5rem 1rem 1rem;
+  background-color: #02042a;
+  border-top: 1px solid rgb(255 255 255 / 12%);
+}
+
+#primary-navigation.is-open > li {
+  margin-left: 0;
+  padding: 0.75rem 0;
+}
+
+@media (min-width: 1024px) {
+  #primary-navigation {
+    position: static;
+    display: flex;
+    flex-direction: row;
+    gap: 0;
+    padding: 0;
+    background: transparent;
+    border: 0;
+  }
+
+  #primary-navigation.is-open {
+    position: static;
+    flex-direction: row;
+    padding: 0;
+    background: transparent;
+    border: 0;
+  }
+}
+
+@media (max-width: 767px) {
+  .hero-title {
+    font-size: clamp(2rem, 8vw, 2.5rem);
+  }
+
+  .mobile-suite-heading {
+    font-size: clamp(2rem, 9vw, 2.5rem);
+  }
+
+  .payment-suite-card,
+  .business-banking-card {
+    min-height: 0;
+    padding: 2rem 1rem;
+  }
+
+  .coreFeatures > div {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .newFeatureCard {
+    max-height: none;
+    min-height: 250px;
+    padding: 1.5rem;
+  }
+}
